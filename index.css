@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+        /*"websafe font" - will work without using google fonts*/
+}
+
+input {
+
+    /* note, we can reduce the number of "paddinf" we are using since they re all the same - 10px. simple make it - "padding: 10px". this will apply to all 4 sides*/
+    padding-left: 10px;
+    /*creates padded spaces inside input box - left side*/
+    padding-right: 10px;
+    /*creates padded spaces inside input box - left side*/
+    width: 100%;
+    /* this take up the width of the body, or which ever div this input box is in.*/
+    box-sizing: border-box;
+    /*box-sizing: border-box; is requries to "even out" the right side. Without it, the right end of the input box enetends out of sight */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #5f9341;
+    font-weight: bold;
+    color: white;
+    /*below, we also reduce the paddings used. Rather, use "adding: 10px 20px" This means padding: top, bottom  left, right*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
